@@ -17,7 +17,7 @@ const NumberSelector = ({ setError, error, selectedNumber, setSelectedNumber }) 
             <div
               key={i}
               onClick={() => numHandler(value)}
-              className={`[72px] [72px] grid place-items-center text-2xl font-bold border border-black cursor-pointer
+              className={`w-[72px] h-[72px] grid place-items-center text-2xl font-bold border border-black cursor-pointer
                 ${isSelected ? "bg-black text-white" : "bg-white text-black"}`}
             >
               {value}
